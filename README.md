@@ -4,19 +4,20 @@ Small nodejs script for deleting all data in a Remedyforce CMDB.
 
 
 ## Dependencies
-1. nodejs - (http://nodejs.org/)[http://nodejs.org/]
+1. nodejs - [http://nodejs.org/](http://nodejs.org/)
 2. node-salesforce - In a terminal window run `npm install node-salesforce`
 
 
 
 ## Running the script
 Update the Setup Info in the top of the script for the desired SF Org.
-`//// Setup info
+```js
+//// Setup info
 
 var user = '<username@domain.com>';
 var passToken = '<Password+Token>';
 var url = 'https://login.salesforce.com';
-`
+```
 
 Run script in terminal
 `node wipeCMDB.js`
